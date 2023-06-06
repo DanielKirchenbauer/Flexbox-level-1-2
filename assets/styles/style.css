@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: green;
+    background-image:url("../images/Flexbox-1-2.avif")
+}
+
+
+header h1 {
+    text-transform: uppercase;
+    margin: 1.25rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.headerStyling {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 64px;
+    align-items: baseline;
+    opacity: 0.5; background-color: black
+}
+
+.headerStyling nav ul {
+    display: flex;
+    list-style: none;
+    column-gap: 32px;
+    justify-content:space-around;
+    padding: 0px;
+}
+
+header section nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
